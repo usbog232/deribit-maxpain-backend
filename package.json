@@ -1,1 +1,33 @@
 
+---
+
+# package.json
+
+```json
+{
+  "name": "deribit-maxpain-backend",
+  "version": "1.0.0",
+  "description": "Deribit BTC/ETH options Max Pain backend (Express)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "keywords": [
+    "deribit",
+    "options",
+    "max-pain",
+    "btc",
+    "eth",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
+
