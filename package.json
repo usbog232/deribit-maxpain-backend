@@ -1,9 +1,3 @@
-
----
-
-# package.json
-
-```json
 {
   "name": "deribit-maxpain-backend",
   "version": "1.0.0",
@@ -24,10 +18,12 @@
   ],
   "author": "",
   "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "node-fetch": "^3.3.2"
   }
 }
-
